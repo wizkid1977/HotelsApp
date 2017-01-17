@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         list.setAdapter(adapter);
     }
 
+    public void stamMethod(){
+        int x = 10;
+    }
+
     @Override
     public void onClick(View view) {
         new HotelTask().execute();
